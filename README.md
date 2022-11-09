@@ -1,7 +1,7 @@
 ## GraphDB Importer
 ### Install
 ```shell
-pip install https://github.com/csse-uoft/graphdb-importer
+pip install git+https://github.com/csse-uoft/graphdb-importer
 ```
 
 ### API
