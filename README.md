@@ -82,6 +82,11 @@ Done
 ```
 
 ----
+### Uninstall
+```shell
+pip uninstall graphdb_importer
+```
+
 ### Install for Development
 ```shell
 pip install -e .
