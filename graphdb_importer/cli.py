@@ -2,7 +2,7 @@ import argparse
 import os
 import sys
 
-from .utils.grapgdb import import_and_wait, set_config
+from .utils.graphdb import import_and_wait, set_config
 
 
 class BooleanAction(argparse.Action):
