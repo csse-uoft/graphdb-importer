@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphdb_importer"
+version = "0.0.1"
+description = "GraphDB Importer"
+authors = [
+    { name = "Lester Lyu", email = "lvds2000@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+# Requirements: This is done differently by poetry!
+dependencies = [
+    "requests",
+    "requests_toolbelt"
+]
+
+[project.urls]
+repository = "https://github.com/csse-uoft/graphdb-importer"
+
+[project.scripts]
+graphdb-importer = "graphdb_importer:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["graphdb_importer", "graphdb_importer.*"]
+
